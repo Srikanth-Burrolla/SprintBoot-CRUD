@@ -75,7 +75,7 @@ public class Configu {
 	        dataSource.setPassword(DB_PASSWORD);
 	        return dataSource;
 	    }
-
+             //commtented
 	    @Bean
 	    public HibernateTransactionManager transactionManager() {
 	        HibernateTransactionManager txManager = new HibernateTransactionManager();
